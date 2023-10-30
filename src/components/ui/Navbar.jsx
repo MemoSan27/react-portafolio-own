@@ -1,8 +1,11 @@
+import { useState } from "react";
 
 
 const NavBar = () => {
-
+    const [isOpen, setIsOpen] = useState(false);
     
+    console.log(isOpen);
+
     return (
       <nav className='nav'> 
           <div className='nav__autor-name container'> 
@@ -17,7 +20,7 @@ const NavBar = () => {
                   <a href='#' className='nav__link'> Contact </a>
               </div>
   
-              <i className='iconShowMenu bx bx-menu'></i>
+              <i onClick={() => setIsOpen(!isOpen)} className='iconShowMenu bx bx-menu'></i>
           </div>
         </nav>
     )

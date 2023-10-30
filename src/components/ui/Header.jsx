@@ -6,9 +6,7 @@ const Header = () => {
 
 
     return (
-        <header id='header' className='header'>
-            <NavBar />
-            <div className='header__box container'>
+        <div className='header__box container'>
                 <div className='header__box-info container'>
                         <img className='header__box-img' src='../profileScreenshot.jpg' alt='Img Profile' />
                         <Typewriter
@@ -30,8 +28,8 @@ const Header = () => {
                         </div>
                 </div>
                 <Cubo />
-             </div>
-        </header>
+        </div>
+        
       )
     }
 

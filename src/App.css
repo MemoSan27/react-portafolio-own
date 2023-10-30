@@ -7,6 +7,7 @@
   --colorBorder: rgba(0,100,255,0.8);
   --fuentePrincipal: 'Poppins', sans-serif;
   --zIndexNav: 5000;
+  --accentColor: #FFEB3B;
 }
 * {
   padding: 0;
@@ -132,6 +133,75 @@ img{
       display: none;
   }
 }
+
+/************** SM MENU **************/
+.menu_slider{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: .5rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: calc(100% - 4rem);
+  background: rgba(0, 0, 0, .5);
+  backdrop-filter: blur(5px);
+  transition: .4s;
+}
+@media ( min-width: 768px ) { 
+  .menu_slider{
+    display: none;
+  }
+}
+.menu_slider.hide{
+  left: 100vw;
+}
+.child_menu{
+  width: calc(100vw - 20px);
+  height: calc(100% - 40px);
+  padding: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  border-radius: 25px;
+  background: url(./assets/img/fondo1.png), var(--pText);
+  background-size: cover;
+  position: relative;
+  left: -4px;
+  transition: left .6s ease-in-out;
+  font-size: 1.7rem;
+}
+.child_menu.hide{
+  left: 150vw;
+}
+.child_menu a{
+  text-decoration: none;
+}
+.access{
+  border: 2px solid #fcf4a4;
+  filter: drop-shadow(0 0 5px var(--accentColor));
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #212121;
+  color: var(--ligthPrimaryC);
+  font-size: 1.1rem;
+}
+
+.access svg{
+  width: 50%;
+  stroke: #FFEB3B;
+  fill: #fcf4a4;
+  filter: drop-shadow(0 0 5px var(--accentColor));
+}
+
 
 /************** HEADER **************/
 .header {
