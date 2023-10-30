@@ -8,6 +8,7 @@
   --fuentePrincipal: 'Poppins', sans-serif;
   --zIndexNav: 5000;
   --accentColor: #FFEB3B;
+  --typeWriteFont: 'Courier New', Courier, monospace;
 }
 * {
   padding: 0;
@@ -252,7 +253,7 @@ img{
   text-align: center;
   font-size: 4rem;
   font-weight: 800;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--typeWriteFont);
   transition: all 300ms;
   color: var(--colorPrincipal);
 }

@@ -31,11 +31,11 @@
 @media ( min-width: 540px ) { 
     .swiper{
         width: 30%;
-        top: 65%;
+        top: 55%;
         left: 82%;
     }
 }
-@media ( min-width: 800px ) { 
+@media ( min-width: 768px ) { 
     .swiper{
         width: 25%;
         top: 65%;
@@ -44,7 +44,8 @@
 }
 @media ( min-width: 1000px ) { 
     .swiper{
-        top: 52%;
+        left: 80%;
+        top: 60%;
     }
 }
 .swiper-slide {
