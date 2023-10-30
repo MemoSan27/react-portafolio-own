@@ -5,6 +5,7 @@ import Header from './components/ui/Header';
 import About from './components/ui/About';
 import SmMenu from './components/ui/SmMenu';
 import BotonDownload from './components/ui/BotonDownload';
+import Skills from './components/ui/Skills';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
     
                 <div className='nav__menu'>
                     <a href='#about' className='nav__link'> About Me </a>
-                    <a href='#' className='nav__link'> Skills </a>
+                    <a href='#skills' className='nav__link'> Skills </a>
                     <a href='#' className='nav__link'> Portafolio </a>
                     <a href='#' className='nav__link'> Contact </a>
                 </div>
@@ -37,6 +38,7 @@ function App() {
       <main className='main'>
         <BotonDownload />
         <About />
+        <Skills />
       </main>
     </div>
   )

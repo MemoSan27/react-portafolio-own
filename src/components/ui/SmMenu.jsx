@@ -2,8 +2,7 @@ import React from 'react'
 
 const SmMenu = ( { isOpen, setIsOpen } ) => {
   
-    console.log(isOpen);
-
+    
     return (
         <div className={isOpen ? "menu_slider" : "menu_slider hide"} id="menu">
             <div className={isOpen ? "child_menu" : "child_menu hide"}>

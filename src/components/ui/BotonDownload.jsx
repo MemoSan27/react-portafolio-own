@@ -7,7 +7,7 @@ const BotonDownload = () => {
           <div className="float_container btn">
             <div className="float">
               <br></br>  
-              <i class='pdf bx bxs-file-pdf'></i>
+              <i className='pdf bx bxs-file-pdf'></i>
               <br></br>
               <br></br>
               <p className='cv'>my CV</p>

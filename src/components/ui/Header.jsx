@@ -1,5 +1,4 @@
 import Typewriter from 'typewriter-effect';
-import NavBar from './Navbar';
 import Cubo from '../swiper/Cubo';
 
 const Header = () => {
