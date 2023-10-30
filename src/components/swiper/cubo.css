@@ -9,6 +9,7 @@
     rotate: 10deg;
     animation: cubo 3s infinite linear;
     transition: all 300ms;
+    
 }
 .swiper::before{
     content: "";
@@ -54,6 +55,23 @@
     display: block;
     width: 100%;
 }
+@keyframes apdes {
+    0% {
+      opacity: 0
+    }
+  
+    20% {
+        opacity: 1
+    }
+  
+    60% {
+        opacity: 1
+    }
+  
+    to {
+        opacity: 0
+    }
+  }
 .swipper__title{
     text-align: center;
     margin-top: 3rem;
@@ -61,6 +79,7 @@
     transition: all 300ms;
     position: absolute;
     top: 100%;
+    animation: apdes 2.5s infinite ease-in-out;
 }  
 @media ( min-width: 540px ) { 
     .swipper__title{
