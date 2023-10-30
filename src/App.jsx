@@ -4,6 +4,7 @@ import Background from './components/ui/Background'
 import Header from './components/ui/Header';
 import About from './components/ui/About';
 import SmMenu from './components/ui/SmMenu';
+import BotonDownload from './components/ui/BotonDownload';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       </header>
 
       <main className='main'>
+        <BotonDownload />
         <About />
       </main>
     </div>

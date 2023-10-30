@@ -9,6 +9,7 @@
   --zIndexNav: 5000;
   --accentColor: #FFEB3B;
   --typeWriteFont: 'Courier New', Courier, monospace;
+  --black: #212121;
 }
 * {
   padding: 0;
@@ -204,6 +205,54 @@ img{
   filter: drop-shadow(0 0 5px var(--accentColor));
 }
 
+/************** FLOATBTN **************/
+.float_container{
+  width: 65px;
+  height: 85px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.067);
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 6rem;
+  right: 2rem;
+  z-index: 99;
+}
+@media ( min-width: 1200px ) { 
+  .float_container{
+    right: 10rem;
+  }
+}
+.float{
+  width: 65px;
+  height: 100px;
+  border-radius: 30px;
+  background-color: var(--black);
+  display: flex;
+  padding: .8rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.float .bx{
+  color: var(--accentColor);
+  margin-top: -25px;
+}
+.float p{
+  font-weight: 800;
+  font-size: 2rem;
+  color: var(--colorPrincipal);
+  text-align: center;
+  position: absolute;
+  margin-top: 1rem;
+}
+.pdf{
+  margin-top: 1rem;
+  font-size: 5rem;
+}
 
 /************** HEADER **************/
 .header {
