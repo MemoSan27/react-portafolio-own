@@ -16,7 +16,7 @@ function App() {
       <header id='header' className='header'>
         <nav className='nav'> 
             <div className='nav__autor-name container'> 
-                <a onClick={() => setIsOpen(!isOpen)}  href='#header' className='nav__autor-link'>
+                <a onClick={() => setIsOpen(false)}  href='#header' className='nav__autor-link'>
                     <h2 className='nav__autor'>Guillermo Sandoval</h2>
                 </a>
     
