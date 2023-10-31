@@ -6,7 +6,8 @@ import About from './components/ui/About';
 import SmMenu from './components/ui/SmMenu';
 import BotonDownload from './components/ui/BotonDownload';
 import Skills from './components/ui/Skills';
-import Portafolio from './components/ui/Portafolio';
+import Portafolio from './components/portafolio/Portafolio';
+
 
 
 function App() {

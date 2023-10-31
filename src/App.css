@@ -557,12 +557,9 @@ img{
     background-position: 100% 100%;
     box-shadow: 0px -4px 52px -11px var(--colorPrincipal);
     backdrop-filter: blur(0.2rem);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding: 5rem;
 }
 .portafolio__grid-title{
   text-align: center;
+  margin-bottom: 5rem;
 }
