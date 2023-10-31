@@ -35,7 +35,7 @@ h2{
   font-weight: 800;
   font-size: 2rem;
 }
-h3{
+h4{
   font-size: 4rem;
   text-align: center;
 }
@@ -286,6 +286,12 @@ img{
   justify-content: center;
   text-align: center;
   position: relative;
+  margin-bottom: 40vh;
+}
+@media ( min-width: 540px ) { 
+  .header{
+    margin-bottom: 0;
+  }
 }
 .header__box{
     border-radius: 3rem;
@@ -362,7 +368,6 @@ img{
 /**** ABOUT ME ****/
 .aboutt{
   background-color: rgba(0,0,0,0.2);
-  margin-top: 40vh;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -370,12 +375,12 @@ img{
   justify-content: center;
   backdrop-filter: blur(0.3rem);
   padding: 5rem 0 0 0;
+  
 }
 @media ( min-width: 540px ) { 
   .aboutt{
     margin-top: 0;
-    padding: 0;
-  }
+}
 }
 .bgTitle{
   background: rgba(255,255,255,.25);
@@ -500,10 +505,13 @@ img{
 
 /**** SKILLS ****/
 .skills{
-  min-height: calc(100vh - 15rem);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .skills__title{
-  margin-top: 10rem;
+  
   animation: apdes 2.5s infinite ease-in-out;
 }
 .skills__principal{
@@ -522,4 +530,13 @@ img{
 }
 .skills__principal:hover{
   color: var(--colorHover);
+}
+
+/**** PORTAFOLIO ****/
+.portafolio{
+  background-color: rgba(0,0,0,0.2);
+  min-height: 100vh;
+  backdrop-filter: blur(0.3rem);
+  padding-top: 10rem;
+  
 }

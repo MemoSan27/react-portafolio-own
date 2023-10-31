@@ -25,7 +25,7 @@ function App() {
                 <div className='nav__menu'>
                     <a href='#about' className='nav__link'> About Me </a>
                     <a href='#skills' className='nav__link'> Skills </a>
-                    <a href='#' className='nav__link'> Portafolio </a>
+                    <a href='#portafolio' className='nav__link'> Portafolio </a>
                     <a href='#' className='nav__link'> Contact </a>
                 </div>
     
@@ -39,6 +39,7 @@ function App() {
         <BotonDownload />
         <About />
         <Skills />
+        <section id='portafolio' className='portafolio'> <h4 className='portafolio__title'> Portafolio </h4></section>
       </main>
     </div>
   )
