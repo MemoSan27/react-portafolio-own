@@ -511,9 +511,7 @@ img{
 /**** SKILLS ****/
 .skills{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 5rem;
 }
 .skills__title{
   
