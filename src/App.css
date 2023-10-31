@@ -201,6 +201,10 @@ img{
 .child_menu a{
   text-decoration: none;
 }
+.menu_name{
+  font-size: 2rem;
+  text-align: center;
+}
 .access{
   border: 2px solid #fcf4a4;
   filter: drop-shadow(0 0 5px var(--accentColor));
@@ -318,11 +322,12 @@ img{
 }
 .Typewriter{
   text-align: center;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 800;
   font-family: var(--typeWriteFont);
   transition: all 300ms;
   color: var(--colorPrincipal);
+  margin-top: 2rem;
 }
 .Typewriter:hover{
   color: var(--colorHover);

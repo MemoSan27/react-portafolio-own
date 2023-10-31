@@ -31,7 +31,7 @@ const Lenguajes = () => {
                     </VelocityScroll>
                 </section>
             </div>
-            <h3>More Technologies</h3>
+            <h3>And More Technologies..</h3>
             <div className='lenguajes'>
                 <section className="velocity_scroll">
                     <VelocityScroll baseVelocity={-4}>
