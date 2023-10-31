@@ -7,10 +7,11 @@ const Skills = () => {
      <h3 className='skills__principal'> 
                         <Typewriter 
                             options={{
-                                strings: [  'My Skills', 
+                                strings: ['My Skills💪', 
                                             ],
                                 autoStart: true,
                                 loop: true,
+                                
                             }}
                         /> </h3> 
      

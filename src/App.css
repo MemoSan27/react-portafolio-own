@@ -379,8 +379,7 @@ img{
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(0.3rem);
-  padding: 5rem 0 0 0;
-  
+  padding-top: 10vh;
 }
 @media ( min-width: 540px ) { 
   .aboutt{
@@ -413,7 +412,7 @@ img{
   }
 }
 .a-title{
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
   width: fit-content;
   animation: apdes 2.5s infinite ease-in-out;
@@ -422,12 +421,12 @@ img{
 }
 @media ( min-width: 450px ) { 
   .a-title{
-    font-size: 5rem;
+    font-size: 6.5rem;
   }
 }
 @media ( min-width: 580px ) { 
   .a-title{
-    font-size: 6rem;
+    font-size: 8rem;
   }
 }
 @media ( min-width: 768px ) { 
@@ -518,12 +517,8 @@ img{
     padding-top: 8vh;
   }
 }
-.skills__title{
-  
-  animation: apdes 2.5s infinite ease-in-out;
-}
 .skills__principal{
-  margin-top: 10rem;
+  margin-top: 10vh;
   background-color: transparent;
   font-size: 7rem !important;
   backdrop-filter: blur(0px);
@@ -542,12 +537,14 @@ img{
 
 /**** PORTAFOLIO ****/
 .portafolio{
+  margin-top: 15vh;
   background-color: rgba(0,0,0,0.2);
   min-height: 100vh;
   backdrop-filter: blur(0.3rem);
   padding-top: 12vh;
-  padding-bottom: 5vh;
+  padding-bottom: 8vh;
 }
+
 .portafolio__grid{
     border-radius: 3rem;
     min-height: 70vh;
@@ -562,4 +559,15 @@ img{
 .portafolio__grid-title{
   text-align: center;
   margin-bottom: 5rem;
+}
+.portafolio__title{
+  color: rgba(240,240,45,0.8);
+  font-size: 5rem;
+}
+@media ( min-width: 768px ) { 
+  .portafolio__title{
+    color: rgba(240,240,45,0.8);
+    font-size: 8rem;
+  }
+  
 }

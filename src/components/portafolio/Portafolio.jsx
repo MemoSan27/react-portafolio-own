@@ -1,11 +1,20 @@
 import "./portafolio.css"
 import data from "../../portafolio.json";
+import Typewriter from 'typewriter-effect';
 
 const Portafolio = () => {
     return (
       <section id='portafolio' className='portafolio'>
-          <h4 className='portafolio__title'> Portafolio </h4>
-          <h4 className="portafolio__grid-title container">Some of my own projects</h4>
+          <h4 className='portafolio__title'> 💼 Portafolio 💼 </h4>
+          <h4 className="portafolio__grid-title container"><Typewriter
+                            options={{
+                                strings: ['Projects:', 
+                                            ],
+                                autoStart: true,
+                                loop: true,
+                                
+                            }}
+                        /> </h4>
   
           <section className="portafolio__grid container">
             <div className="portafolio_container">

@@ -7,6 +7,7 @@ import SmMenu from './components/ui/SmMenu';
 import BotonDownload from './components/ui/BotonDownload';
 import Skills from './components/ui/Skills';
 import Portafolio from './components/portafolio/Portafolio';
+import Contact from './components/contacto/Contact';
 
 
 
@@ -28,7 +29,7 @@ function App() {
                     <a href='#about' className='nav__link'> About Me </a>
                     <a href='#skills' className='nav__link'> Skills </a>
                     <a href='#portafolio' className='nav__link'> Portafolio </a>
-                    <a href='#' className='nav__link'> Contact </a>
+                    <a href='#contacto' className='nav__link'> Contact </a>
                 </div>
     
                 <i onClick={() => setIsOpen(!isOpen)} className='iconShowMenu bx bx-menu'></i>
@@ -42,6 +43,7 @@ function App() {
         <About />
         <Skills />
         <Portafolio />
+        <Contact />
       </main>
     </div>
   )
