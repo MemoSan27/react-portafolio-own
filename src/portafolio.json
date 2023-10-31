@@ -82,5 +82,19 @@
         "participation": "Absolute",
         "url": "https://react-weatherapp-own.netlify.app/",
         "image": "/portafolioImg/weatherApp.png"
+    },
+    {
+        "title": "Weather App",
+        "description": "Real Project. This project was done with React, target of this App is join in an endpoint, first getting your geolocalization needing your prev-authorization, and after that you can get with the search input the weather from whatever place you like to find, as long as that place exists in the API data, this project uses dependences like Axios and React-Loading. ",
+        "participation": "Absolute",
+        "url": "https://react-weatherapp-own.netlify.app/",
+        "image": "/portafolioImg/weatherApp.png"
+    },
+    {
+        "title": "Weather App",
+        "description": "Real Project. This project was done with React, target of this App is join in an endpoint, first getting your geolocalization needing your prev-authorization, and after that you can get with the search input the weather from whatever place you like to find, as long as that place exists in the API data, this project uses dependences like Axios and React-Loading. ",
+        "participation": "Absolute",
+        "url": "https://react-weatherapp-own.netlify.app/",
+        "image": "/portafolioImg/weatherApp.png"
     }
 ]

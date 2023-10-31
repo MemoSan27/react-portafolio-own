@@ -8,6 +8,7 @@ import BotonDownload from './components/ui/BotonDownload';
 import Skills from './components/ui/Skills';
 import Portafolio from './components/portafolio/Portafolio';
 import Contact from './components/contacto/Contact';
+import Footer from './components/ui/Footer';
 
 
 
@@ -45,6 +46,10 @@ function App() {
         <Portafolio />
         <Contact />
       </main>
+
+      <footer className='footer'>
+        <Footer />
+      </footer>
     </div>
   )
 }
