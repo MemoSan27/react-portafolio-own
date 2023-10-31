@@ -8,6 +8,8 @@
     rotate: 10deg;
     animation: cubo 3s infinite linear;
     transition: all 300ms;
+    border-radius: 2rem;
+    
 }
 @media ( max-width: 340px  ) { 
     .swiper{
@@ -22,11 +24,14 @@
     top: 0;
     bottom: 0;
     right: 0;
-    filter: blur(1rem)
+    filter: blur(1rem);
+    border-radius: 2rem;
+    
 }
 .swiper-cube-shadow::before{
     background: gray !important;
     filter: blur(15px) !important;
+    
 }
 .swiper:hover{
     transform: scale(1.08);
@@ -55,11 +60,13 @@
 }
 .swiper-slide {
     background-position: center;
-    background-size: cover;
+    
 }
 .swiper-slide img {
     display: block;
     width: 100%;
+    background-size: cover;
+    border-radius: 2rem;
 }
 @keyframes apdes {
     0% {

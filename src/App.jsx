@@ -6,6 +6,7 @@ import About from './components/ui/About';
 import SmMenu from './components/ui/SmMenu';
 import BotonDownload from './components/ui/BotonDownload';
 import Skills from './components/ui/Skills';
+import Portafolio from './components/ui/Portafolio';
 
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
         <BotonDownload />
         <About />
         <Skills />
-        <section id='portafolio' className='portafolio'> <h4 className='portafolio__title'> Portafolio </h4></section>
+        <Portafolio />
       </main>
     </div>
   )
