@@ -15,6 +15,7 @@ const Lenguajes = () => {
                         <img src="../js.png" alt="" />
                         <img src="../react.png" alt="" />
                         <img src="../next.png" alt="" />
+                        <img src="../socket.png" alt="" />
                 </VelocityScroll>
                 </section>
             </div>
@@ -28,6 +29,7 @@ const Lenguajes = () => {
                         <img src="../mongodb.png" alt="" />
                         <img src="../firebase.png" alt="" />
                         <img src="../express.png" alt="" />
+                        <img src="../socket.png" alt="" />
                     </VelocityScroll>
                 </section>
             </div>
