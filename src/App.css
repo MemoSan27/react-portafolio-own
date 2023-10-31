@@ -286,7 +286,12 @@ img{
   justify-content: center;
   text-align: center;
   position: relative;
-  margin-bottom: 40vh;
+  margin-bottom: 35vh;
+}
+@media (max-width: 539px) and ( max-height: 570px  ) { 
+  .header{
+    margin-bottom: 55vh;
+  }
 }
 @media ( min-width: 540px ) { 
   .header{
