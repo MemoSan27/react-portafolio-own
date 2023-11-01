@@ -1,13 +1,14 @@
+import useIntersection from "../../hooks/useIntersection";
 
 const About = () => {
-
+  const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.3, });
 
     return (
       <section id="about" className="aboutt">
-        <div className="bgTitle container"> 
+        <div ref={elementRef} className={ isIntersecting ? "bgTitle container show" : "bgTitle container hidden" } > 
           <p className="a-title"> About me👨‍💻</p>
         </div>
-        <section className="about container">
+        <section ref={elementRef} className={ isIntersecting ? "about container show" : "about container hidden"} >
             <figure className="about__figure">
                 <img className="about__img" src="../about.jpg" />
             </figure>

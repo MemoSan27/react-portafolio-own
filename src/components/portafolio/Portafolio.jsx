@@ -1,12 +1,15 @@
 import "./portafolio.css"
 import data from "../../portafolio.json";
 import Typewriter from 'typewriter-effect';
+import useIntersection from "../../hooks/useIntersection";
 
 const Portafolio = () => {
+    const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.3, });
+
     return (
       <section id='portafolio' className='portafolio'>
-          <h4 className='portafolio__title'> 💼 Portafolio 💼 </h4>
-          <h4 className="portafolio__grid-title container"><Typewriter
+          <h4 ref={elementRef} className={ isIntersecting ? 'portafolio__title show' : 'portafolio__title hidden'  } > 💼 Portafolio 💼 </h4>
+          <h4 ref={elementRef} className={ isIntersecting ? "portafolio__grid-title container show" : "portafolio__grid-title container hidden" } ><Typewriter
                             options={{
                                 strings: ['Projects:', 
                                             ],
@@ -16,7 +19,7 @@ const Portafolio = () => {
                             }}
                         /> </h4>
   
-          <section className="portafolio__grid container">
+          <section ref={elementRef} className={ isIntersecting ? "portafolio__grid container show" : "portafolio__grid container hidden"} >
             <div className="portafolio_container">
               {
                 data.map((page) => (

@@ -1,9 +1,12 @@
+import useIntersection from '../../hooks/useIntersection';
 import Lenguajes from '../lenguajes/Lenguajes';
 import Typewriter from 'typewriter-effect';
 
 const Skills = () => {
+  const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.3, });
+
   return (
-    <section id='skills' className='skills'>
+    <section ref={elementRef} id='skills' className={isIntersecting ? 'skills show': 'skills hidden'} >
      <h3 className='skills__principal'> 
                         <Typewriter 
                             options={{

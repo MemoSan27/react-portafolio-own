@@ -1,21 +1,14 @@
 import Typewriter from 'typewriter-effect';
 import Cubo from '../swiper/Cubo';
-import { useEffect, useRef } from 'react';
+import useIntersection from '../../hooks/useIntersection';
+ 
+
 
 const Header = () => {
-    const elementoRef = useRef();
-
-    useEffect( () => {
-
-        const elemeto = elementoRef.current;
-        const observer = new IntersectionObserver((entries) => {
-            console.log(entries);
-        });
-
-    }, []);
+    const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.3, });
 
     return (
-        <div ref={elementoRef} className='header__box container'>
+        <div ref={elementRef} className={ isIntersecting ? 'header__box container show' : 'header__box container hidden'} >
                 <div className='header__box-info container'>
                         <img className='header__box-img' src='../profileScreenshot.jpg' alt='Img Profile' />
                         <Typewriter
