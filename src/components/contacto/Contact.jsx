@@ -2,11 +2,13 @@ import "./contact.css"
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 import { useState } from "react";
+import useIntersection from "../../hooks/useIntersection";
 
 const Contact = () => {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
     const [active, setActive] = useState(false)
     const inputNull = { name: "", phone: "", email: "", company: "" };
+    const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.3, });
 
     const sendEmail = data => {
         setActive(true)
@@ -23,8 +25,8 @@ const Contact = () => {
     }
     return (
         <div id="contacto" className="contacto">
-            <h2 className="contact__title" id="contact">Contact Me 😁</h2>
-            <div className="formulario">
+            <h2 ref={elementRef} className={ isIntersecting ? "contact__title show" : "contact__title hidden"}   id="contact">Contact Me 😁</h2>
+            <div ref={elementRef} className={ isIntersecting ? "formulario show" : "formulario hidden" } >
                 <p className="contact__subtitle">I would be glad to contact you back as soon as possible!</p>
                 <form onSubmit={handleSubmit(sendEmail)}
                 className='form_container'>
