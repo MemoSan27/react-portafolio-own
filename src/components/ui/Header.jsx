@@ -1,11 +1,21 @@
 import Typewriter from 'typewriter-effect';
 import Cubo from '../swiper/Cubo';
+import { useEffect, useRef } from 'react';
 
 const Header = () => {
+    const elementoRef = useRef();
 
+    useEffect( () => {
+
+        const elemeto = elementoRef.current;
+        const observer = new IntersectionObserver((entries) => {
+            console.log(entries);
+        });
+
+    }, []);
 
     return (
-        <div className='header__box container'>
+        <div ref={elementoRef} className='header__box container'>
                 <div className='header__box-info container'>
                         <img className='header__box-img' src='../profileScreenshot.jpg' alt='Img Profile' />
                         <Typewriter

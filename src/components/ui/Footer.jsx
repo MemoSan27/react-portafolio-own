@@ -13,10 +13,10 @@ const Footer = () => {
                 <i className='bx bxl-github' ></i>  
             </a>
             <a className='header__icon-what' href='https://wa.me/+526699418129' target='_blank'>
-                <i class='bx bxl-whatsapp'></i>
+                <i className='bx bxl-whatsapp'></i>
             </a>
             <a className='header__icon-gmail' href='mailto:memo2705@gmail.com' target='_blank'>
-                <i class='bx bxl-gmail' ></i>
+                <i className='bx bxl-gmail' ></i>
             </a>
         </div>
         <h2 className='footer__text container'> Made with ❤️ by Guillermo Sandoval.</h2> 
