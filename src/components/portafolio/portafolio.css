@@ -78,9 +78,10 @@
 }
 .cart_description{
     color: yellow;
-    font-size: 1.5rem !important;
+    font-size: 1.7rem !important;
     font-weight: 300;
     padding: .8rem;
+    margin-top: 0.8rem;
 }
 .back a{
     text-decoration: none;
