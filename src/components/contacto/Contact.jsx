@@ -21,7 +21,9 @@ const Contact = () => {
                 reset(inputNull)
                 setActive(false)
             })
-            .catch(error => console.error(error))
+            .catch(error => {
+                console.error(error)  
+            });
     }
     return (
         <div id="contacto" className="contacto">
