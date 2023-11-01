@@ -6,8 +6,8 @@ const Skills = () => {
   const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.3, });
 
   return (
-    <section ref={elementRef} id='skills' className={isIntersecting ? 'skills show': 'skills hidden'} >
-     <h3 className='skills__principal'> 
+    <section id='skills' className='skills' >
+     <h3 ref={elementRef} className={isIntersecting ? 'skills__principal show' : 'skills__principal hidden' } > 
                         <Typewriter 
                             options={{
                                 strings: ['My Skills💪', 

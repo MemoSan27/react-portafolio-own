@@ -1,10 +1,14 @@
 import React from 'react';
 import "./lenguajes.css"
 import VelocityScroll from './VelocityScroll';
+import useIntersection from '../../hooks/useIntersection';
 
 const Lenguajes = () => {
+
+    const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.3, });
+
     return (
-        <>
+        <div ref={elementRef} className={ isIntersecting ? 'show' : 'hidden'}>
             
             <h3 className='skills__front'>Frontend</h3>
             <div className='lenguajes'>
@@ -48,7 +52,7 @@ const Lenguajes = () => {
                 </section>
             </div>
             <h3></h3>
-        </>
+        </div>
     );
 };
 
