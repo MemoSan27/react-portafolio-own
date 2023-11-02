@@ -20,9 +20,23 @@ const Contact = () => {
             .then(res => {
                 reset(inputNull)
                 setActive(false)
+                Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: 'Email sent success',
+                    showConfirmButton: false,
+                    timer: 1500
+                  })
             })
             .catch(error => {
-                console.error(error)  
+                console.error(error)
+                Swal.fire({
+                    position: 'center',
+                    icon: 'error',
+                    title: 'Error while sending your email.',
+                    showConfirmButton: false,
+                    timer: 1500
+                  })  
             });
     }
     return (
@@ -36,20 +50,20 @@ const Contact = () => {
                     <div className="names_container">
                         <div className="input_container">
                             <label className="label" htmlFor="name">Name and Lastname:</label>
-                            <input type="text" id='name' placeholder="Your complete name"  {...register('name')} />
+                            <input type="text" id='name' placeholder="Your complete name"  {...register('name')} required />
                         </div>
                     </div>
                     <div className="input_container">
                         <label className="label" htmlFor="email">Email:</label>
-                        <input type="email" id='email' placeholder="Your e-mail"{...register('email')} />
+                        <input type="email" id='email' placeholder="Your e-mail"{...register('email')} required />
                     </div>
                     <div className="input_container">
                         <label className="label" htmlFor="phone">Cellphone (please incluide code of your country)</label>
-                        <input type="text" id='phone' placeholder="Example: +526697321122" {...register('phone')} />
+                        <input type="text" id='phone' placeholder="Example: +526697321122" {...register('phone')} required />
                     </div>
                     <div className="input_container">
                         <label className="label" htmlFor="company">Company or institution: </label>
-                        <input type="text" id='company' placeholder="Company, institution or startup's name" {...register('company')} />
+                        <input type="text" id='company' placeholder="Company, institution or startup's name" {...register('company')} required />
                     </div>
                     <button className='submit_btn'>
                         Send
