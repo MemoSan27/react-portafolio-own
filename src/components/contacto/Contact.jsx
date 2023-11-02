@@ -8,7 +8,7 @@ const Contact = () => {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
     const [active, setActive] = useState(false)
     const inputNull = { name: "", phone: "", email: "", company: "" };
-    const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.3, });
+    const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.4, });
 
     const sendEmail = data => {
         setActive(true)

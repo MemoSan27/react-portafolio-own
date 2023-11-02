@@ -10,7 +10,7 @@ const Skills = () => {
      <h3 ref={elementRef} className={isIntersecting ? 'skills__principal show' : 'skills__principal hidden' } > 
                         <Typewriter 
                             options={{
-                                strings: ['My Skills💪', 
+                                strings: ['My Skills', 
                                             ],
                                 autoStart: true,
                                 loop: true,

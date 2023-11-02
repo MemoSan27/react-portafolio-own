@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import useIntersection from "../../hooks/useIntersection";
 
 const Portafolio = () => {
-    const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.1, });
+    const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.05, });
 
     return (
       <section id='portafolio' className='portafolio'>
