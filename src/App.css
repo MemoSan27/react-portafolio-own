@@ -604,3 +604,13 @@ img{
   transform: translateY(0);
   transition: opacity 1.5s, transform 1.5s;
 }
+.hidden2{
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+.show2{
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1.5s, transform 1.5s;
+}
