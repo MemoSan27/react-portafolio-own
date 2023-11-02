@@ -8,10 +8,10 @@ const Lenguajes = () => {
     const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.3, });
 
     return (
-        <div ref={elementRef} className={ isIntersecting ? 'show' : 'hidden'}>
+        <>
             
-            <h3 className='skills__front'>Frontend</h3>
-            <div className='lenguajes'>
+            <h3 ref={elementRef} className={ isIntersecting ? 'skills__front show3' : 'skills__front hidden3' } >Frontend</h3>
+            <div ref={elementRef} className={ isIntersecting ? 'lenguajes show3' : 'lenguajes hidden3' } >
                 <section className="velocity_scroll">
                     <VelocityScroll baseVelocity={-4}>
                         <img src='../html.png' alt="" />
@@ -23,8 +23,8 @@ const Lenguajes = () => {
                 </VelocityScroll>
                 </section>
             </div>
-            <h3>BackEnd</h3>
-            <div className='lenguajes'>
+            <h3 ref={elementRef} className={ isIntersecting ? 'skills__front show2' : 'skills__front hidden2' } >BackEnd</h3>
+            <div ref={elementRef} className={ isIntersecting ? 'lenguajes show2' : 'lenguajes hidden2' }>
                 <section className="velocity_scroll">
                     <VelocityScroll baseVelocity={4}>
                         <img src="../node.png" alt="" />
@@ -37,8 +37,8 @@ const Lenguajes = () => {
                     </VelocityScroll>
                 </section>
             </div>
-            <h3>And More Technologies..</h3>
-            <div className='lenguajes'>
+            <h3 ref={elementRef} className={ isIntersecting ? 'skills__front show3' : 'skills__front hidden3' } >And More Technologies..</h3>
+            <div ref={elementRef} className={ isIntersecting ? 'lenguajes show3' : 'lenguajes hidden3' }>
                 <section className="velocity_scroll">
                     <VelocityScroll baseVelocity={-4}>
                         <img src="../git.png" alt="" />
@@ -52,7 +52,7 @@ const Lenguajes = () => {
                 </section>
             </div>
             <h3></h3>
-        </div>
+        </>
     );
 };
 

@@ -604,3 +604,33 @@ img{
   transform: translateY(0);
   transition: opacity 1.5s, transform 1.5s;
 }
+.hidden2{
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+.show2{
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1.5s, transform 1.5s;
+}
+.hidden3{
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+.show3{
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1.5s, transform 1.5s;
+}
+.hidden4{
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+.show4{
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1.5s, transform 1.5s;
+}

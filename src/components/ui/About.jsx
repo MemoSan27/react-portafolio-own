@@ -5,7 +5,7 @@ const About = () => {
 
     return (
       <section id="about" className="aboutt">
-        <div ref={elementRef} className={ isIntersecting ? "bgTitle container show" : "bgTitle container hidden" } > 
+        <div ref={elementRef} className={ isIntersecting ? "bgTitle container show4" : "bgTitle container hidden4" } > 
           <p className="a-title"> About me👨‍💻</p>
         </div>
         <section ref={elementRef} className={ isIntersecting ? "about container show" : "about container hidden"} >

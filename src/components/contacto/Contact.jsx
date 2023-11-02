@@ -20,9 +20,24 @@ const Contact = () => {
             .then(res => {
                 reset(inputNull)
                 setActive(false)
+                Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: 'Email Sent Success',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+                
             })
             .catch(error => {
                 console.error(error)  
+                Swal.fire({
+                    position: 'center',
+                    icon: 'error',
+                    title: 'Error sending email',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
             });
     }
     return (

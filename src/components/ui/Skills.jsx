@@ -7,10 +7,10 @@ const Skills = () => {
 
   return (
     <section id='skills' className='skills' >
-     <h3 ref={elementRef} className={isIntersecting ? 'skills__principal show' : 'skills__principal hidden' } > 
+     <h3 ref={elementRef} className={isIntersecting ? 'skills__principal show4' : 'skills__principal hidden4' } > 
                         <Typewriter 
                             options={{
-                                strings: ['My Skills💪', 
+                                strings: ['My Skills', 
                                             ],
                                 autoStart: true,
                                 loop: true,
