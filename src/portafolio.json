@@ -7,10 +7,17 @@
         "image": "/portafolioImg/heroes.png"
     },
     {
+        "title": "Rick and Morty",
+        "description": "Project crated with React, with some libraries like Axios, React-Autosuggest and React-Loading. This app contact you with an API, that show you some character's locations with a suggestion box that you have first to click and later submit for search.",
+        "participation": "Absolute",
+        "url": "https://react-rickmorty-own.netlify.app",
+        "image": "/portafolioImg/rick.png"
+    },
+    {
         "title": "Weather App",
         "description": "Project created with React, Axios and React-Loading. This app contact you with a weather API, first you need to authorize your localization, and after that, you can find whatever city you need to search, result depends if that city exists in API data.",
         "participation": "Absolute",
-        "url": "https://react-weatherapp-own.netlify.app/",
+        "url": "https://react-weatherapp-own.netlify.app",
         "image": "/portafolioImg/weatherApp.png"
     },
     
@@ -32,7 +39,7 @@
         "title": "E-commerce",
         "description": "Project created with Vanilla JS and libraries like Sweet Alert and BoxIcons. This project was a practice to know and understand how DOM and Local Storage works.",
         "participation": "Absolute",
-        "url": "https://vanillajs-cart-own.onrender.com/",
+        "url": "https://vanillajs-cart-own.onrender.com",
         "image": "/portafolioImg/cart.png"
     },
     {
