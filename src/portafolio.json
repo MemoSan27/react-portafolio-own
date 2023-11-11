@@ -7,6 +7,13 @@
         "image": "/portafolioImg/heroes.png"
     },
     {
+        "title": "CRUD App",
+        "description": "Project crated with React, Axios, react-hook-form and styled-components libraries. This app, is a single crud where you can manipulate a backend dedicated to User's information.",
+        "participation": "Absolute",
+        "url": "https://react-crud-own.netlify.app",
+        "image": "/portafolioImg/crud.png"
+    },
+    {
         "title": "Rick and Morty",
         "description": "Project crated with React, with some libraries like Axios, React-Autosuggest and React-Loading. This app contact you with an API, that show you some character's locations with a suggestion box that you have first to click and later submit for search.",
         "participation": "Absolute",
