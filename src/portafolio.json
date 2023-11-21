@@ -1,5 +1,12 @@
 [
     {
+        "title": "Pokedex",
+        "description": "One of my best projects nowadays as a junior developer, I learned some good skills like implement a darkmode, routing, global states, advanced css, etc. using dependencies like redux/toolkit, styled-components, react-router-dom, react-circular-progressbar, etc.",
+        "participation": "Absolute",
+        "url": "https://react-pokedex-own.netlify.app/#/",
+        "image": "/portafolioImg/pokedex.png"
+    },
+    {
         "title": "Heroes Spa",
         "description": "Project crated with React, Bootstrap, Animate CSS, React-dom and React-Router-Dom. This app is a Single Page Application (SPA) that let you search info about heroes from a database (JSON file).",
         "participation": "Absolute",
