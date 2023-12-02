@@ -44,9 +44,9 @@ const Lenguajes = () => {
                         <img src="../git.png" alt="" />
                         <img src="../github.png" alt="" />
                         <img src="../swiper.png" alt="" />
-                        <img src="../semantic.png" alt="" />
-                        <img src="../particles.png" alt="" />
+                        <img src="../tailwind.png" alt="" />
                         <img src="../motion.png" alt="" />
+                        <img src="../redux.svg" alt="" />
                         
                     </VelocityScroll>
                 </section>

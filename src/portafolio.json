@@ -1,7 +1,14 @@
 [
     {
+        "title": "Online Shop",
+        "description": "One of my best projects nowadays as a junior developer, I learned extra skills like authentication, manage of data and more design skills, this was my final project on Academlo academy.",
+        "participation": "Absolute",
+        "url": "https://react-ecommerce-own.netlify.app/#/",
+        "image": "/portafolioImg/ecommerce.png"
+    },
+    {
         "title": "Pokedex",
-        "description": "One of my best projects nowadays as a junior developer, I learned some good skills like implement a darkmode, routing, global states, advanced css, etc. using dependencies like redux/toolkit, styled-components, react-router-dom, react-circular-progressbar, etc.",
+        "description": "One of my favorite projects nowadays as a junior developer, I learned some good skills like implement a darkmode, routing, global states, advanced css, etc. using dependencies like redux/toolkit, styled-components, react-router-dom, react-circular-progressbar, etc.",
         "participation": "Absolute",
         "url": "https://react-pokedex-own.netlify.app/#/",
         "image": "/portafolioImg/pokedex.png"
@@ -21,6 +28,13 @@
         "image": "/portafolioImg/crud.png"
     },
     {
+        "title": "Crypto Quoter",
+        "description": "Project crated with React. This app contact you with an crypto API that show you the current value of your favorite crypto, quoter has USD Dollar, Mexican Peso and GBP exchanges to see how much your crypto costs at that moment.",
+        "participation": "Absolute",
+        "url": "https://react-cryptoquoterapp-ccj.netlify.app",
+        "image": "/portafolioImg/crypto.png"
+    },
+    {
         "title": "Rick and Morty",
         "description": "Project crated with React, with some libraries like Axios, React-Autosuggest and React-Loading. This app contact you with an API, that show you some character's locations with a suggestion box that you have first to click and later submit for search.",
         "participation": "Absolute",
@@ -33,28 +47,6 @@
         "participation": "Absolute",
         "url": "https://react-weatherapp-own.netlify.app",
         "image": "/portafolioImg/weatherApp.png"
-    },
-    
-    {
-        "title": "Gif Expert App",
-        "description": "Project crated with React using fetch. This app contact you with a gif API where you can find whatever gif you need depending if that gif exist in the API data",
-        "participation": "Absolute",
-        "url": "https://memo-react-gifapp.netlify.app",
-        "image": "/portafolioImg/expapp.png"
-    },
-    {
-        "title": "Lucky Cookie",
-        "description": "Project created with React and Axios. This project is a kind of game that show you a random quote from an API.",
-        "participation": "Absolute",
-        "url": "https://react-luckycookie-own.netlify.app",
-        "image": "/portafolioImg/lucky.png"
-    },
-    {
-        "title": "E-commerce",
-        "description": "Project created with Vanilla JS and libraries like Sweet Alert and BoxIcons. This project was a practice to know and understand how DOM and Local Storage works.",
-        "participation": "Absolute",
-        "url": "https://vanillajs-cart-own.onrender.com",
-        "image": "/portafolioImg/cart.png"
     },
     {
         "title": "Blackjack",
