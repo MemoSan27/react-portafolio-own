@@ -3,7 +3,7 @@ import React from 'react'
 const BotonDownload = () => {
 
   return (
-    <a  href='../curr.pdf' download={true}>
+    <a  href='../CV.pdf' download={true}>
           <div className="float_container btn">
             <div className="float">
               <br></br>  
