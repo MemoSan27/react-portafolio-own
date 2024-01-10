@@ -2,6 +2,14 @@ import { useState } from 'react';
 import './App.css'
 import Background from './components/ui/Background'
 import Header from './components/ui/Header';
+import About from './components/ui/About';
+import SmMenu from './components/ui/SmMenu';
+import BotonDownload from './components/ui/BotonDownload';
+import Skills from './components/ui/Skills';
+import Portafolio from './components/portafolio/Portafolio';
+import Contact from './components/contacto/Contact';
+import Footer from './components/ui/Footer';
+
 
 
 function App() {
@@ -10,8 +18,38 @@ function App() {
   return (
     <div className='App'>
       <Background />
-      <Header />
-      <p className='about'> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem hic provident quis rem amet ullam quae modi, quo necessitatibus maiores voluptatibus delectus rerum labore illum quaerat. Harum aspernatur earum, culpa alias eos vitae. Perferendis deleniti necessitatibus tempora culpa mollitia excepturi distinctio quam eos, expedita aut nemo. Quis perspiciatis placeat rerum reiciendis laboriosam facere ea tempora omnis, ullam officia aliquam corporis autem quia nostrum sunt doloremque quidem ab magnam vitae? Illum iure facilis quos necessitatibus, exercitationem aspernatur, sunt quibusdam nostrum rem blanditiis laborum voluptate tenetur atque incidunt ut at tempore pariatur ratione fugit labore voluptatum dolorem quae rerum minus! Molestias delectus ipsum eum! Ex sequi veniam accusamus omnis ipsa corporis vel incidunt ipsum debitis laudantium est perspiciatis saepe dolorum quasi a, nemo deleniti ducimus minus officia aliquid eum natus aperiam, fugit voluptatem! Facilis tempora, quasi numquam beatae asperiores in culpa alias amet rerum optio corporis earum voluptatibus! Modi dicta laborum quis perferendis iure debitis consequatur veritatis autem delectus error eius id, dolorum facilis earum officiis dolores ratione amet nobis harum consectetur veniam? Delectus libero, ratione explicabo non autem cum ab corrupti ea ad repellendus animi minus ipsam tempore, deleniti sint magnam voluptas voluptatibus, repudiandae amet? Facere perspiciatis dicta provident maiores possimus. Reprehenderit dignissimos natus assumenda alias a, culpa quod sunt fuga. Ab in animi delectus perspiciatis blanditiis tempora amet, placeat ad porro distinctio vitae veritatis libero asperiores hic dolores officiis consectetur. Obcaecati cupiditate impedit eaque quidem rerum accusamus quibusdam minus quod! Quam, eaque hic nostrum dicta dolorum quis magnam impedit sed. Porro quo cumque, dicta tempora assumenda ipsam molestias nam nihil animi vitae ut id aliquam fuga pariatur? Corrupti explicabo omnis, enim exercitationem excepturi laudantium expedita sequi! Excepturi vero quasi amet voluptate distinctio nobis, aperiam laboriosam eius suscipit, iste quas facere doloribus explicabo necessitatibus fugiat libero eum, fuga dolorum atque est mollitia minus cum consectetur. Iusto possimus delectus fugiat eius aut voluptas harum dolore officia doloribus, ducimus minus quos dignissimos asperiores voluptatibus molestiae veniam neque exercitationem iure perferendis. Laborum recusandae magni mollitia qui ipsa sit illum vero quos. Magnam, aperiam animi sint vel voluptas earum voluptate eligendi fugit quod eius molestiae minima harum corrupti nulla dicta accusantium ipsam cumque quo nostrum pariatur voluptatibus libero molestias minus veritatis? Deleniti ullam officiis perferendis illo adipisci ut, in eum maiores quia quos cum iusto delectus praesentium neque sed pariatur, dolores deserunt nam. Id sint, rem minus nemo numquam assumenda dolor ipsa aliquid earum soluta quos consequatur est perferendis molestiae praesentium sed modi totam tempora quas voluptas tenetur fugit laborum. Magnam voluptatum, error recusandae perferendis nobis ullam minus, nostrum inventore facere fugiat fugit non quasi sapiente laborum adipisci aspernatur quam accusamus, alias ducimus voluptas dolore! Atque dolore, minus inventore nobis sint obcaecati voluptatem! Quaerat explicabo voluptates voluptatum cupiditate a aspernatur quasi laboriosam dicta, ducimus ipsum illum quae voluptatem possimus sapiente maiores facere blanditiis dolorem nisi dolor ab quibusdam provident necessitatibus praesentium. Maxime debitis sit hic officia. Cumque, illo magnam saepe explicabo optio repellendus nobis doloribus atque deleniti officia quaerat quidem suscipit perspiciatis quod, molestias dignissimos voluptas vel consequatur rem quas? Deserunt cumque rerum praesentium incidunt, id placeat labore nobis mollitia ullam quam quod! Placeat optio eos atque, ullam ad temporibus cumque facilis quam! Non ex maxime voluptates illum, ab natus perferendis exercitationem sed debitis. Aliquam doloribus incidunt voluptates, animi eligendi nostrum laborum nulla esse repellendus cum exercitationem rerum, voluptas dignissimos quod blanditiis aut modi illum! Sit vel quae enim tempora dolorum ea alias nemo! Repellat vitae, nostrum, optio, maxime rerum maiores quis numquam aliquid accusantium quae corporis nihil! Quidem, accusantium cum sit, mollitia quasi cupiditate quas quia, architecto nobis maiores ea dolore quaerat odio dolorum tempore quibusdam inventore alias repudiandae tempora vel itaque. Impedit beatae omnis aliquid eligendi atque alias culpa quasi suscipit voluptas totam quas, nisi ullam ipsa consequatur quam odit dolorem! Sunt ex ab recusandae maxime rerum accusamus quaerat itaque deserunt accusantium, repellat ducimus molestiae aperiam, similique voluptas unde temporibus molestias soluta dolor provident laborum et praesentium consequuntur? Aperiam, aspernatur! Modi non cupiditate excepturi quibusdam unde consectetur nisi voluptates, laudantium consequuntur ducimus, ipsa, totam nobis fugiat reiciendis saepe sed veritatis eveniet? Tempore, velit totam unde quod repellat amet perspiciatis cumque sequi autem culpa distinctio inventore delectus minima architecto dolore eligendi, nobis necessitatibus sed, porro voluptatum! Ipsam deserunt autem quas obcaecati optio magni minus dolores omnis quibusdam nesciunt. Temporibus suscipit minima, reprehenderit quaerat distinctio obcaecati architecto perspiciatis corrupti maiores, vero explicabo hic ab cum quis atque unde in nulla nihil sapiente delectus iure itaque! Unde similique quasi ab voluptatibus vel, dignissimos sed maiores quibusdam cupiditate tempora nam at culpa, veniam repellat itaque impedit, minima voluptate sint. Qui excepturi incidunt nostrum quibusdam autem, corrupti sapiente quasi ex consequuntur. Repellendus doloremque nihil sit voluptatem minus nam unde autem explicabo repudiandae debitis ad enim sequi facilis aliquid voluptatum voluptates non, numquam neque, architecto saepe asperiores alias dolor? Repellat deserunt neque qui labore, velit explicabo suscipit dolorem nisi tempore nesciunt, quo sed deleniti et ducimus. Saepe temporibus asperiores magnam neque recusandae. Natus necessitatibus nam non beatae corporis dolore eos labore velit alias laboriosam rem veniam exercitationem ut molestiae, fugiat hic, deleniti, harum quo repellat saepe suscipit? In consequatur, ea impedit ullam ad necessitatibus doloribus. Dolorum, suscipit voluptas repudiandae esse saepe asperiores eum soluta aliquid quidem praesentium ut ad impedit voluptatibus assumenda pariatur? Eveniet voluptate in molestias, reprehenderit fugiat beatae maxime hic numquam dolorem nostrum perspiciatis deserunt aspernatur cupiditate. Error ea placeat illum. Quod repudiandae soluta a nemo pariatur non molestias numquam maiores corporis rerum nisi assumenda, dicta ipsam nam aliquid beatae amet dolorem veniam commodi adipisci error. Eligendi laborum nobis rem labore deleniti, vel mollitia ullam delectus sit voluptas! Iste voluptates aut repudiandae numquam quaerat quos et sint, hic architecto aspernatur consequuntur error consectetur nesciunt dolorum, quo cupiditate, possimus molestias quia mollitia suscipit? Pariatur dolorem rerum mollitia tenetur. In, aliquid ipsa ipsam odio atque sequi expedita numquam. Vero autem reprehenderit, error ratione atque, molestiae distinctio porro qui debitis voluptas omnis sint dolore! Eveniet nihil, temporibus illo soluta perferendis porro. Molestias rem, a ipsa quidem fugiat porro fugit!</p>
+      <SmMenu isOpen={isOpen} setIsOpen={setIsOpen} />
+      <header id='header' className='header'>
+        <nav className='nav'> 
+            <div className='nav__autor-name container'> 
+                <a onClick={() => setIsOpen(false)}  href='#header' className='nav__autor-link'>
+                    <h2 className='nav__autor'>Guillermo Sandoval</h2>
+                </a>
+    
+                <div className='nav__menu'>
+                    <a href='#about' className='nav__link'> About Me </a>
+                    <a href='#skills' className='nav__link'> Skills </a>
+                    <a href='#portafolio' className='nav__link'> Portafolio </a>
+                    <a href='#contacto' className='nav__link'> Contact </a>
+                </div>
+    
+                <i onClick={() => setIsOpen(!isOpen)} className='iconShowMenu bx bx-menu'></i>
+            </div>
+          </nav>
+          <Header />
+      </header>
+
+      <main className='main'>
+        <BotonDownload />
+        <About />
+        <Skills />
+        <Portafolio />
+        <Contact />
+      </main>
+
+      <footer className='footer'>
+        <Footer />
+      </footer>
     </div>
   )
 }

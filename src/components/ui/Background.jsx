@@ -15,7 +15,7 @@ const Background = () => {
         options={{
             background: {
                 color: {
-                    value: "#4f4b4b",
+                    value: "#3c3c3c",
                 },
             },
             fpsLimit: 200,
@@ -63,13 +63,13 @@ const Background = () => {
                         default: "bounce",
                     },
                     random: false,
-                    speed: 6,
+                    speed: 4,
                     straight: false,
                 },
                 number: {
                     density: {
                         enable: true,
-                        area: 800,
+                        area: 1800,
                     },
                     value: 80,
                 },
@@ -77,12 +77,13 @@ const Background = () => {
                     value: 0.5,
                 },
                 shape: {
-                    type: "circle",
+                    type: "square",
                 },
                 size: {
                     value: { min: 1, max: 5 },
                 },
             },
+            
             detectRetina: true,
         }}
     />

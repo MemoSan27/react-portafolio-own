@@ -1,14 +1,14 @@
 import Typewriter from 'typewriter-effect';
-import NavBar from './Navbar';
 import Cubo from '../swiper/Cubo';
+import useIntersection from '../../hooks/useIntersection';
+ 
+
 
 const Header = () => {
-
+    const [ elementRef, isIntersecting ] = useIntersection({ threshold: 0.3, });
 
     return (
-        <header id='header' className='header'>
-            <NavBar />
-            <div className='header__box container'>
+        <div ref={elementRef} className={ isIntersecting ? 'header__box container show' : 'header__box container hidden'} >
                 <div className='header__box-info container'>
                         <img className='header__box-img' src='../profileScreenshot.jpg' alt='Img Profile' />
                         <Typewriter
@@ -30,8 +30,8 @@ const Header = () => {
                         </div>
                 </div>
                 <Cubo />
-             </div>
-        </header>
+        </div>
+        
       )
     }
 
