@@ -1,5 +1,19 @@
 [
     {
+        "title": "PDF File Pokedex",
+        "description": "Fullstack challenge consisted in create 4 own endpoints based in existing endpoints from pokeapi.com API, endpoints tasks were: sort alphabetically all pokemons, change the limit and offset of pokemons, bring just one pokemon and create a PDF report generated from my server.",
+        "participation": "Absolute",
+        "url": "https://reto-tecnico-frontend.onrender.com",
+        "image": "/portafolioImg/pokedex.png"
+    },
+    {
+        "title": "Journal App",
+        "description": "Project fullstack created in React at frontend side and supported at backend side by Firebase, Cloudinary for images, react-router-dom for routes and Material UI for styles, it's a personal journal that manage authentication that allows you to save some info and images of important dates.",
+        "participation": "Absolute",
+        "url": "https://react-journalapp-second.vercel.app/",
+        "image": "/portafolioImg/journal.png"
+    },
+    {
         "title": "Online Shop",
         "description": "One of my best projects nowadays as a junior developer, I learned extra skills like authentication, manage of data and more design skills, this was my final project on Academlo academy.",
         "participation": "Absolute",
@@ -7,18 +21,18 @@
         "image": "/portafolioImg/ecommerce.png"
     },
     {
-        "title": "Pokedex",
-        "description": "One of my favorite projects nowadays as a junior developer, I learned some good skills like implement a darkmode, routing, global states, advanced css, etc. using dependencies like redux/toolkit, styled-components, react-router-dom, react-circular-progressbar, etc.",
-        "participation": "Absolute",
-        "url": "https://react-pokedex-own.netlify.app/#/",
-        "image": "/portafolioImg/pokedex.png"
-    },
-    {
         "title": "Heroes Spa",
         "description": "Project crated with React, Bootstrap, Animate CSS, React-dom and React-Router-Dom. This app is a Single Page Application (SPA) that let you search info about heroes from a database (JSON file).",
         "participation": "Absolute",
         "url": "https://memo-react-heroes-spa.netlify.app",
         "image": "/portafolioImg/heroes.png"
+    },
+    {
+        "title": "NextJs Tic-tac",
+        "description": "One of my favorite projects because it's builded in NextJs v14 with the new App Router, Typescript, CSS Modules and Zustand for global states, using all my knowledge about react, hooks, custom hooks, good practices, css modules, some program logic practice, etc.",
+        "participation": "Absolute",
+        "url": "https://next-tictactoe-nine.vercel.app/",
+        "image": "/portafolioImg/tic-tac-toe.png"
     },
     {
         "title": "CRUD App",
